@@ -26,6 +26,7 @@ class App extends Component {
     const { data, country } = this.state;
     return (
       <div className={styles.container}>
+        <h1>Git Changes pushed to master.</h1>
         <Cards data={data} />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} />
